@@ -1,0 +1,40 @@
+name: Build & Deploy Docs
+
+on:
+  push:
+    branches: [main]          # rebuild every push to main
+  workflow_dispatch:          # allow manual runs from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write         # needed for gh-pages push
+
+    steps:
+      - name: 📚 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: ⚙️  Setup Node 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: npm
+          cache-dependency-path: docs/package-lock.json
+
+      - name: 📦 Install deps
+        run: npm ci
+        working-directory: docs
+
+      - name: 🛠️  Build site
+        run: npm run build
+        working-directory: docs
+
+      - name: 🚀 Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/build       # ⚠ points at the *built* output
+          publish_branch: gh-pages
