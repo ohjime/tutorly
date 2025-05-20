@@ -1,0 +1,77 @@
+name: tutorly
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^5.6.6
+  firebase_auth: ^5.5.2
+
+  equatable: ^2.0.7
+  firebase_core: ^3.13.0
+  wave_divider: ^0.0.3
+  shimmer: ^3.0.0
+  flutter_form_builder: ^10.0.1
+  form_builder_validators: ^11.1.2
+  awesome_dialog: ^3.2.1
+  pushable_button: ^0.0.4
+  animated_text_kit: ^4.2.3
+  google_sign_in: ^6.3.0
+  meta: ^1.16.0
+  font_awesome_flutter: ^10.8.0
+  delayed_display: ^2.0.0
+  image_picker: ^1.1.2
+  percent_indicator: ^4.2.5
+  rive: ^0.13.2
+  google_fonts: ^6.2.1
+  speech_balloon: ^0.0.4
+  random_avatar: ^0.0.8
+  toastification: ^1.2.0
+  avatar_glow: ^3.0.1
+  collection: ^1.19.1
+  chiclet: ^1.2.0
+  loading_indicator: ^3.1.1
+  form_builder_image_picker: ^4.3.1
+  form_builder_extra_fields:
+  flow_builder:
+  uuid: ^4.5.1
+  firebase_storage: ^12.4.5
+  path_provider: ^2.1.5
+  bloc: ^9.0.0
+  flutter_bloc: ^9.1.1
+  stacked_card_carousel: ^0.0.4
+  sheet: ^1.0.0
+  sticky_headers: ^0.3.0+2
+  flutter_sticky_header: ^0.7.0
+  dotted_border: ^2.1.0
+  calendar_view: ^1.4.0
+  easy_date_timeline: ^2.0.9
+  animations: ^2.0.11
+  intl: ^0.20.2
+  flutter_zoom_drawer: ^3.2.0
+  get: ^4.7.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.5
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/shared/
+    - assets/images/app/
+    - assets/images/onboarding/
+    - assets/audio/intro/
+    - assets/animations/shared/
+    - assets/animations/onboarding/
+    - assets/data/shared/universities.json

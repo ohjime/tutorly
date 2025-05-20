@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "978899320599",
+    "project_id": "tutorscribe-70f7b",
+    "storage_bucket": "tutorscribe-70f7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978899320599:android:1040fd8dce8925871c0152",
+        "android_client_info": {
+          "package_name": "com.example.tutorly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978899320599-qjm3sh9drubstvelao5iqlo8mh76uiqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfP-byerVv2vI6NrvbmqKpOy7G0lPG-7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978899320599-qjm3sh9drubstvelao5iqlo8mh76uiqf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "978899320599-5094de07cdknnnj55ahj8ivf7c700ufr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ohj"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978899320599:android:78a4fcb32e3c56a21c0152",
+        "android_client_info": {
+          "package_name": "com.ohjime.tutorscribe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978899320599-qjm3sh9drubstvelao5iqlo8mh76uiqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfP-byerVv2vI6NrvbmqKpOy7G0lPG-7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978899320599-qjm3sh9drubstvelao5iqlo8mh76uiqf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "978899320599-5094de07cdknnnj55ahj8ivf7c700ufr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ohj"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

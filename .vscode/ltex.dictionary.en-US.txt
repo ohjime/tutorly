@@ -1,0 +1,10 @@
+sgn
+quaternions
+Quaternion
+conjugacy
+conjugacy-character
+circulant
+submatrices
+quaternion
+Jime
+monic

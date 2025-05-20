@@ -1,0 +1,96 @@
+{
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "--shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.invertMode.enabled": "auto",
+    "latex-workshop.view.pdf.invert": 0.9,
+    
+    "latex-workshop.formatting.latex":"tex-fmt",
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.log.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.message.information.show": false,
+    "files.exclude": {
+        // "**/.[!v]*": true,
+        "**/.vscode-remote-containers": true,
+        // "**/.vscode": true,
+        "**/.vscode-server/bin": true,
+        "**/.vscode-server/data/CachedProfilesData": true,
+        "**/.vscode-server/data/CachedExtensionVSIXs": true,
+        "**/.vscode-server/data/logs": true,
+        "**/.vscode-server/data/machineid": true,
+        "**/.vscode-server/data/User": true,
+        "**/miniforge3*": true,
+        "**/Miniforge3*": true,
+        "**/*.aux": true,
+        "**/*.log": true,
+        "**/*.out": true,
+        "**/*.gz": true,
+        "**/*.toc": true,
+        "**/document.bbl": true,
+        "**/document.synctex(busy)": true,
+        "**/texmf": true,
+        "**/build": true,
+        "**/linux": true,
+        "**/macos": true,
+        "**/windows": true,
+        "**/pubspec.lock": true,
+        "**/firepit-log.txt": true,
+        "**/devtools_options.yaml": true,
+        "**/analysis_options.yaml": true,
+        "**/tutorly.iml": true,
+    },
+    "explorer.sortOrder": "type",
+    "workbench.colorTheme": "windows-xp",
+    "workbench.preferredDarkColorTheme": "Cobalt2",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.formatOnCellExecution": true,
+    "notebook.defaultFormatter": "ms-python.black-formatter",
+    "workbench.preferredLightColorTheme": "windows-xp",
+    "latex-workshop.view.autoFocus.enabled": true,
+    "cSpell.enabled": true,
+    "cSpell.language": "en",
+    "cSpell.enabledFileTypes": {
+        "py": true,
+        "tex": true
+    },
+    "cSpell.languageSettings": [
+        {
+            "languageId": "python",
+            "ignoreRegExpList": [
+                "/(^[ \\t]*#[^#][^@]*?$)/gm", // Ignore full line comments
+                "/\\b[A-Za-z_]+(?=\\s*\\()/g", // Ignore function/method names
+                "/(?!\\b\\d)(\\b[\\w]+\\b)(?=\\s*\\=)/g" // Ignore variable names
+            ],
+            "includeRegExpList": [
+                "/#[^#].*$/g", // Check comments
+                "/(['\"])(?:(?=(\\\\?))\\2.)*?\\1/g" // Check strings
+            ]
+        }
+    ],
+    "window.autoDetectColorScheme": true,
+    "workbench.iconTheme": "easy-icons",
+    "cSpell.words": [
+        "creds",
+        "timeslot",
+        "Tutorly"
+    ],
+}
