@@ -13,9 +13,9 @@ classDiagram
         - StudentRepository _studentRepository
         + SignupCubit(AuthenticationRepository authenticationRepository, ...)
         + selectRole(UserRole role)
-        + updateUser(Map<String, dynamic> userData)
-        + updateTutor(Map<String, dynamic> tutorData)
-        + updateStudent(Map<String, dynamic> studentData)
+        + updateUser(`Map<String, dynamic>` userData)
+        + updateTutor(`Map<String, dynamic>` tutorData)
+        + updateStudent(`Map<String, dynamic>` studentData)
         + submit()
         + submitWithGoogle()
     }
@@ -52,13 +52,13 @@ States are immutable; use `copyWith` to create new instances with updated fields
 - **selectRole(UserRole role)**
   Sets the selected user role (`tutor` or `student`) in state, allowing the UI to render appropriate form fields.
 
-- **updateUser(Map<String, dynamic> userData)**
+- **updateUser(`Map<String, dynamic>` userData)**
   Merges incoming `userData` into the existing `User` model via `copyWith`, updating form state without side effects.
 
-- **updateTutor(Map<String, dynamic> tutorData)**
+- **updateTutor(`Map<String, dynamic>` tutorData)**
   Merges `tutorData` into the `Tutor` model via `copyWith`, updating tutor-specific fields.
 
-- **updateStudent(Map<String, dynamic> studentData)**
+- **updateStudent(`Map<String, dynamic>` studentData)**
   Merges `studentData` into the `Student` model via `copyWith`, updating student-specific fields.
 
 - **submit()**

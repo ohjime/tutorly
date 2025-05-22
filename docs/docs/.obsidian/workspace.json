@@ -170,6 +170,8 @@
   },
   "active": "6fdb0ad38ee1f989",
   "lastOpenFiles": [
+    "introduction.md",
+    "overview.md",
     "features/login/cubit.md",
     "features/login/view.md",
     "features/signup/cubit.md",
