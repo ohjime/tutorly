@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.vsDark;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docs',
+  title: 'Tutorly',
   tagline: 'Tutorly Developer Guide',
   url: 'https://ohjime.github.io',
   baseUrl: '/tutorly/',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ohjime/tutorly/tree/main/',
+            'https://github.com/ohjime/tutorly/tree/main/docs/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,7 +63,7 @@ const config = {
             label: 'Overview',
           },
           {
-            href: 'https://github.com/ohjime/tutorly/docs',
+            href: 'https://github.com/ohjime/tutorly/',
             position: 'right',
             className: 'navbar-github-icon',
             'aria-label': 'GitHub repository',
